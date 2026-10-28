@@ -1,0 +1,70 @@
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        ::selection {
+            background: #d4d4d4;
+            color: #171717;
+        }
+
+        .linea {
+            width: 1px;
+            background: #737373;
+            margin: 0 auto;
+        }
+
+        .seccion {
+            scroll-margin-top: 90px;
+        }
+
+        .mapa-nodo {
+            border: 1px solid #a3a3a3;
+            background: white;
+            padding: 1rem;
+            height: 100%;
+        }
+
+        .mapa-titulo {
+            font-size: .9rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: .035em;
+        }
+
+        .mapa-lista {
+            margin-top: .85rem;
+            display: grid;
+            gap: .55rem;
+            font-size: .84rem;
+            line-height: 1.45;
+            color: #404040;
+        }
+
+        .mapa-lista li::before {
+            content: "— ";
+            color: #737373;
+        }
+
+        @media print {
+
+            nav,
+            footer,
+            .no-print,
+            .volver-arriba {
+                display: none !important;
+            }
+
+            body {
+                color: black;
+                background: white;
+            }
+
+            section {
+                break-inside: avoid;
+            }
+        }

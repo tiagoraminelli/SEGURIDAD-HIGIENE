@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Seguridad e Higiene, Salud Ocupacional y Medio Ambiente</title>
+    <meta name="description"
+        content="Material conceptual sobre seguridad e higiene laboral, salud ocupacional, prevención de riesgos y gestión ambiental.">
+    <link rel="icon" type="image/webp" href="santa fe.webp">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'Arial', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+   
+</head>
+
+<body class="bg-white text-neutral-900 antialiased">
+
+    <!-- NAVEGACIÓN -->
+    <nav class="sticky top-0 z-40 border-b border-neutral-300 bg-white">
+        <div class="mx-auto flex max-w-7xl items-center justify-between gap-5 px-5 py-4">
+            <a href="#inicio" class="max-w-xs text-sm font-bold leading-snug">
+                Seguridad e Higiene
+                <span class="block font-normal text-neutral-500">
+                    Salud ocupacional y medio ambiente
+                </span>
+            </a>
+
+            <div class="hidden items-center gap-5 text-xs text-neutral-600 md:flex">
+                <a href="#mapa" class="hover:text-black">Cuadro conceptual</a>
+                <a href="#normativa" class="hover:text-black">Normativa</a>
+                <a href="#riesgos" class="hover:text-black">Riesgos</a>
+                <a href="#prevencion" class="hover:text-black">Prevención</a>
+                <a href="#ambiente" class="hover:text-black">Medio ambiente</a>
+            </div>
+
+            <button id="menuBtn" class="border border-neutral-400 px-3 py-2 text-xs md:hidden" aria-expanded="false"
+                aria-controls="menuMovil">
+                Menú
+            </button>
+        </div>
+
+        <div id="menuMovil" class="hidden border-t border-neutral-200 px-5 py-4 md:hidden">
+            <div class="flex flex-col gap-4 text-sm text-neutral-700">
+                <a href="#mapa">Cuadro conceptual</a>
+                <a href="#normativa">Normativa</a>
+                <a href="#riesgos">Riesgos laborales</a>
+                <a href="#prevencion">Prevención</a>
+                <a href="#ambiente">Medio ambiente</a>
+            </div>
+        </div>
+    </nav>
+
+    <main id="inicio">
+
+        <!-- PORTADA -->
+        <header class="border-b border-neutral-300">
+            <div class="mx-auto grid max-w-7xl gap-10 px-5 py-20 md:grid-cols-[1.4fr_.6fr] md:items-end md:py-28">
+                <div>
+                    <p class="mb-5 text-xs font-bold uppercase tracking-[.2em] text-neutral-500">
+                        Material de estudio · Prevención y gestión
+                    </p>
+
+                    <h1 class="max-w-4xl text-4xl font-bold leading-tight tracking-tight sm:text-5xl md:text-6xl">
+                        Seguridad e Higiene,
+                        <span class="text-neutral-500">Salud Ocupacional y Medio Ambiente.</span>
+                    </h1>
+
+                    <p class="mt-7 max-w-2xl text-base leading-7 text-neutral-600 md:text-lg">
+                        Una visión integral de la prevención de riesgos, la protección de las personas,
+                        las condiciones de trabajo y el cuidado del entorno.
+                    </p>
+
+                    <div class="mt-8 flex flex-wrap gap-3">
+                        <a href="#mapa"
+                            class="border border-neutral-900 bg-neutral-900 px-5 py-3 text-sm text-white hover:bg-neutral-700">
+                            Ver cuadro conceptual
+                        </a>
+
+                        <a href="#contenido" class="border border-neutral-400 px-5 py-3 text-sm hover:bg-neutral-100">
+                            Explorar contenido
+                        </a>
+                    </div>
+                </div>
+
+                <div class="border-l border-neutral-300 pl-5 md:ml-auto md:max-w-xs">
+                    <p class="text-xs font-bold uppercase tracking-widest text-neutral-500">
+                        Ejes principales
+                    </p>
+
+                    <ol class="mt-5 space-y-4 text-sm">
+                        <li class="flex gap-3">
+                            <span class="text-neutral-400">01</span>
+                            <span>Seguridad e higiene laboral</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="text-neutral-400">02</span>
+                            <span>Salud y bienestar ocupacional</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="text-neutral-400">03</span>
+                            <span>Protección del medio ambiente</span>
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="text-neutral-400">04</span>
+                            <span>Gestión, normativa y mejora continua</span>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </header>
+
+        <!-- INTRODUCCIÓN -->
+        <section id="contenido" class="seccion mx-auto max-w-7xl px-5 py-16">
+            <div class="grid gap-8 md:grid-cols-[.7fr_1.3fr]">
+                <div>
+                    <p class="text-xs font-bold uppercase tracking-widest text-neutral-500">
+                        01 / Introducción
+                    </p>
+                    <h2 class="mt-3 text-3xl font-bold tracking-tight">
+                        Una mirada integral del trabajo
+                    </h2>
+                </div>
+
+                <div class="space-y-5 text-sm leading-7 text-neutral-600 md:text-base">
+                    <p>
+                        La seguridad e higiene, la salud ocupacional y el medio ambiente son
+                        áreas relacionadas que buscan prevenir daños, mejorar las condiciones
+                        laborales y promover actividades responsables.
+                    </p>
+
+                    <p>
+                        Su aplicación comienza con la identificación de los peligros, continúa
+                        con la evaluación de los riesgos y requiere medidas de prevención,
+                        capacitación, seguimiento y revisión permanente.
+                    </p>
+
+                    <p>
+                        La prevención no depende únicamente de los trabajadores: también
+                        requiere compromiso de la dirección, organización del trabajo,
+                        recursos adecuados y cumplimiento de las obligaciones aplicables.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CUADRO CONCEPTUAL -->
+        <section id="mapa" class="seccion border-y border-neutral-300 bg-neutral-50">
+            <div class="mx-auto max-w-7xl px-5 py-16">
+                <div class="mb-10 max-w-3xl">
+                    <p class="text-xs font-bold uppercase tracking-widest text-neutral-500">
+                        02 / Síntesis visual
+                    </p>
+
+                    <h2 class="mt-3 text-3xl font-bold tracking-tight md:text-4xl">
+                        Cuadro conceptual integrado
+                    </h2>
+
+                    <p class="mt-4 text-sm leading-6 text-neutral-600">
+                        Los contenidos se conectan con el objetivo central de la materia:
+                        prevenir riesgos, proteger la salud y reducir los impactos ambientales.
+                    </p>
+                </div>
+
+                <div class="mx-auto max-w-5xl">
+
+                    <!-- CONCEPTO CENTRAL -->
+                    <div class="border border-neutral-800 bg-neutral-900 px-5 py-7 text-center text-white">
+                        <p class="text-xs font-semibold uppercase tracking-[.18em] text-neutral-300">
+                            Materia
+                        </p>
+                        <h3 class="mt-3 text-xl font-bold md:text-2xl">
+                            Seguridad e Higiene, Salud Ocupacional y Medio Ambiente
+                        </h3>
+                        <p class="mx-auto mt-3 max-w-2xl text-sm leading-6 text-neutral-300">
+                            Prevención de riesgos y protección integral de las personas,
+                            las condiciones laborales y el entorno.
+                        </p>
+                    </div>
+
+                    <div class="linea h-8"></div>
+
+                    <div class="grid grid-cols-3 gap-2 md:gap-5">
+                        <!-- SEGURIDAD -->
+                        <article class="mapa-nodo">
+                            <p class="mapa-titulo">Seguridad e higiene</p>
+                            <ul class="mapa-lista">
+                                <li>Identificación de peligros</li>
+                                <li>Evaluación de riesgos</li>
+                                <li>Accidentes de trabajo</li>
+                                <li>Condiciones de seguridad</li>
+                                <li>Medidas preventivas</li>
+                                <li>Jerarquía de controles</li>
+                            </ul>
+                        </article>
+
+                        <!-- SALUD -->
+                        <article class="mapa-nodo">
+                            <p class="mapa-titulo">Salud ocupacional</p>
+                            <ul class="mapa-lista">
+                                <li>Protección de la salud</li>
+                                <li>Enfermedades profesionales</li>
+                                <li>Ergonomía</li>
+                                <li>Factores físicos y químicos</li>
+                                <li>Factores biológicos</li>
+                                <li>Riesgos psicosociales</li>
+                            </ul>
+                        </article>
+
+                        <!-- AMBIENTE -->
+                        <article class="mapa-nodo">
+                            <p class="mapa-titulo">Medio ambiente</p>
+                            <ul class="mapa-lista">
+                                <li>Impactos ambientales</li>
+                                <li>Gestión de residuos</li>
+                                <li>Prevención de contaminación</li>
+                                <li>Uso responsable de recursos</li>
+                                <li>Control de impactos</li>
+                                <li>Mejora ambiental</li>
+                            </ul>
+                        </article>
+                    </div>
+
+                    <div class="linea h-8"></div>
+
+                    <!-- MARCO NORMATIVO -->
+                    <div class="border border-neutral-400 bg-white p-5 md:p-7">
+                        <p class="text-center text-xs font-bold uppercase tracking-widest text-neutral-500">
+                            Marco legal y normativo
+                        </p>
+
+                        <div class="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
+                            <div class="border border-neutral-300 p-3">
+                                <p class="text-sm font-bold">Ley 19.587</p>
+                                <p class="mt-2 text-xs leading-5 text-neutral-600">
+                                    Higiene y seguridad en el trabajo.
+                                </p>
+                            </div>
+
+                            <div class="border border-neutral-300 p-3">
+                                <p class="text-sm font-bold">Decreto 351/79</p>
+                                <p class="mt-2 text-xs leading-5 text-neutral-600">
+                                    Reglamentación de la Ley 19.587.
+                                </p>
+                            </div>
+
+                            <div class="border border-neutral-300 p-3">
+                                <p class="text-sm font-bold">Decreto 3413/79</p>
+                                <p class="mt-2 text-xs leading-5 text-neutral-600">
+                                    Régimen de licencias, justificaciones y franquicias.
+                                </p>
+                            </div>
+
+                            <div class="border border-neutral-300 p-3">
+                                <p class="text-sm font-bold">Decreto 214/2006</p>
+                                <p class="mt-2 text-xs leading-5 text-neutral-600">
+                                    Convenio colectivo general de la Administración Pública Nacional.
+                                </p>
+                            </div>
+
+                            <div class="border border-neutral-300 p-3">
+                                <p class="text-sm font-bold">ISO 45001 / 14001</p>
+                                <p class="mt-2 text-xs leading-5 text-neutral-600">
+                                    Sistemas de gestión de SST y gestión ambiental.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="linea h-8"></div>
+
+                    <!-- GESTIÓN -->
+                    <div class="border border-neutral-400 bg-white p-5 text-center md:p-7">
+                        <h3 class="text-lg font-bold">Gestión y prevención integral</h3>
+
+                        <div class="mt-5 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6">
+                            <div class="border border-neutral-300 px-2 py-3 text-sm">Identificar</div>
+                            <div class="border border-neutral-300 px-2 py-3 text-sm">Evaluar</div>
+                            <div class="border border-neutral-300 px-2 py-3 text-sm">Controlar</div>
+                            <div class="border border-neutral-300 px-2 py-3 text-sm">Capacitar</div>
+                            <div class="border border-neutral-300 px-2 py-3 text-sm">Supervisar</div>
+                            <div class="border border-neutral-300 px-2 py-3 text-sm">Mejorar</div>
+                        </div>
+
+                        <p class="mt-5 text-sm leading-6 text-neutral-600">
+                            La probabilidad de ocurrencia, la exposición y la gravedad de las
+                            consecuencias permiten priorizar los riesgos y seleccionar medidas
+                            de prevención adecuadas.
+                        </p>
+                    </div>
+
+                    <div class="linea h-8"></div>
+
+                    <!-- OBJETIVO -->
+                    <div class="border border-neutral-400 bg-neutral-200 px-5 py-6 text-center">
+                        <p class="text-xs font-bold uppercase tracking-widest text-neutral-600">
+                            Objetivo final
+                        </p>
+
+                        <p class="mx-auto mt-3 max-w-3xl text-base font-semibold leading-7">
+                            Prevenir accidentes y enfermedades laborales, proteger a las personas,
+                            mejorar las condiciones de trabajo y reducir los impactos negativos
+                            sobre el medio ambiente.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MARCO NORMATIVO -->
+        <section id="normativa" class="seccion mx-auto max-w-7xl px-5 py-16">
+            <div class="max-w-3xl">
+                <p class="text-xs font-bold uppercase tracking-widest text-neutral-500">
+                    03 / Legislación y normas
+                </p>
+                <h2 class="mt-3 text-3xl font-bold tracking-tight">
+                    Marco legal y normativo
+                </h2>
+                <p class="mt-4 text-sm leading-6 text-neutral-600">
+                    Las normas establecen obligaciones, criterios y marcos de actuación.
+                    Cada instrumento tiene un alcance específico y debe interpretarse
+                    según la actividad y el ámbito laboral correspondiente.
+                </p>
+            </div>
+
+            <div class="mt-9 divide-y divide-neutral-300 border-y border-neutral-300">
+
+                <article class="grid gap-3 py-6 md:grid-cols-[220px_1fr] md:gap-10">
+                    <div>
+                        <p class="text-xs text-neutral-500">LEGISLACIÓN NACIONAL</p>
+                        <h3 class="mt-2 text-lg font-bold">Ley 19.587</h3>
+                    </div>
+                    <div>
+                        <p class="text-sm leading-7 text-neutral-600">
+                            Establece las bases de la higiene y seguridad en el trabajo en
+                            Argentina. Su finalidad es proteger la vida y la integridad
+                            psicofísica de los trabajadores mediante condiciones laborales seguras
+                            y medidas de prevención.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="grid gap-3 py-6 md:grid-cols-[220px_1fr] md:gap-10">
+                    <div>
+                        <p class="text-xs text-neutral-500">REGLAMENTACIÓN</p>
+                        <h3 class="mt-2 text-lg font-bold">Decreto 351/79</h3>
+                    </div>
+                    <div>
+                        <p class="text-sm leading-7 text-neutral-600">
+                            Reglamenta la Ley 19.587 y desarrolla condiciones y requisitos
+                            relacionados con establecimientos, instalaciones, equipos,
+                            protección contra incendios, condiciones ambientales y prevención
+                            de riesgos laborales, según las disposiciones aplicables.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="grid gap-3 py-6 md:grid-cols-[220px_1fr] md:gap-10">
+                    <div>
+                        <p class="text-xs text-neutral-500">RÉGIMEN DE LICENCIAS</p>
+                        <h3 class="mt-2 text-lg font-bold">Decreto 3413/79</h3>
+                    </div>
+                    <div>
+                        <p class="text-sm leading-7 text-neutral-600">
+                            Se vincula con el régimen de licencias, justificaciones y franquicias
+                            de la Administración Pública Nacional. Su relación con la materia
+                            se aborda desde las condiciones laborales y los derechos contemplados
+                            para el personal comprendido en su ámbito.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="grid gap-3 py-6 md:grid-cols-[220px_1fr] md:gap-10">
+                    <div>
+                        <p class="text-xs text-neutral-500">EMPLEO PÚBLICO</p>
+                        <h3 class="mt-2 text-lg font-bold">Decreto 214/2006</h3>
+                    </div>
+                    <div>
+                        <p class="text-sm leading-7 text-neutral-600">
+                            Homologa el Convenio Colectivo de Trabajo General para la
+                            Administración Pública Nacional. Su relación con la materia puede
+                            analizarse a partir de las condiciones de empleo y de las
+                            disposiciones aplicables al personal alcanzado.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="grid gap-3 py-6 md:grid-cols-[220px_1fr] md:gap-10">
+                    <div>
+                        <p class="text-xs text-neutral-500">SEGURIDAD Y SALUD</p>
+                        <h3 class="mt-2 text-lg font-bold">ISO 45001</h3>
+                    </div>
+                    <div>
+                        <p class="text-sm leading-7 text-neutral-600">
+                            Es una norma internacional para sistemas de gestión de seguridad
+                            y salud en el trabajo. Orienta la identificación de peligros,
+                            evaluación de riesgos, participación de los trabajadores,
+                            cumplimiento de requisitos y mejora continua.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="grid gap-3 py-6 md:grid-cols-[220px_1fr] md:gap-10">
+                    <div>
+                        <p class="text-xs text-neutral-500">GESTIÓN AMBIENTAL</p>
+                        <h3 class="mt-2 text-lg font-bold">ISO 14001</h3>
+                    </div>
+                    <div>
+                        <p class="text-sm leading-7 text-neutral-600">
+                            Proporciona requisitos para establecer un sistema de gestión
+                            ambiental. Permite identificar aspectos e impactos ambientales,
+                            establecer objetivos, controlar procesos y mejorar el desempeño
+                            ambiental de una organización.
+                        </p>
+                    </div>
+                </article>
+            </div>
+
+            <p class="mt-5 text-xs leading-5 text-neutral-500">
+                Nota: la aplicación concreta de cada disposición depende de su vigencia,
+                ámbito y normativa complementaria. Las normas ISO son estándares de gestión
+                y no reemplazan las obligaciones legales.
+            </p>
+        </section>
+
+        <!-- RIESGOS -->
+        <section id="riesgos" class="seccion border-y border-neutral-300 bg-neutral-50">
+            <div class="mx-auto max-w-7xl px-5 py-16">
+                <div class="max-w-3xl">
+                    <p class="text-xs font-bold uppercase tracking-widest text-neutral-500">
+                        04 / Identificación y análisis
+                    </p>
+                    <h2 class="mt-3 text-3xl font-bold tracking-tight">
+                        Peligros y riesgos laborales
+                    </h2>
+                    <p class="mt-4 text-sm leading-7 text-neutral-600">
+                        Para prevenir un daño es necesario distinguir entre el origen potencial
+                        del daño, la posibilidad de que ocurra y las condiciones que pueden
+                        favorecer un accidente o una enfermedad.
+                    </p>
+                </div>
+
+                <div class="mt-9 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+                    <article class="border border-neutral-300 bg-white p-5">
+                        <p class="text-xs font-bold text-neutral-500">01</p>
+                        <h3 class="mt-3 font-bold">Peligro</h3>
+                        <p class="mt-3 text-sm leading-6 text-neutral-600">
+                            Fuente, situación o acto con potencial para causar lesiones,
+                            enfermedades o daños.
+                        </p>
+                    </article>
+
+                    <article class="border border-neutral-300 bg-white p-5">
+                        <p class="text-xs font-bold text-neutral-500">02</p>
+                        <h3 class="mt-3 font-bold">Riesgo</h3>
+                        <p class="mt-3 text-sm leading-6 text-neutral-600">
+                            Combinación de la probabilidad de que ocurra un evento peligroso
+                            y la gravedad de sus consecuencias.
+                        </p>
+                    </article>
+
+                    <article class="border border-neutral-300 bg-white p-5">
+                        <p class="text-xs font-bold text-neutral-500">03</p>
+                        <h3 class="mt-3 font-bold">Condición peligrosa</h3>
+                        <p class="mt-3 text-sm leading-6 text-neutral-600">
+                            Estado inseguro del lugar, las instalaciones, los equipos o
+                            las herramientas de trabajo.
+                        </p>
+                    </article>
+
+                    <article class="border border-neutral-300 bg-white p-5">
+                        <p class="text-xs font-bold text-neutral-500">04</p>
+                        <h3 class="mt-3 font-bold">Acto inseguro</h3>
+                        <p class="mt-3 text-sm leading-6 text-neutral-600">
+                            Acción u omisión que se aparta de un procedimiento seguro
+                            y puede contribuir a un incidente.
+                        </p>
+                    </article>
+                </div>
+
+                <div class="mt-10 grid gap-8 md:grid-cols-2">
+                    <div class="border-t border-neutral-400 pt-5">
+                        <h3 class="text-lg font-bold">Riesgo puro</h3>
+                        <p class="mt-3 text-sm leading-7 text-neutral-600">
+                            Se asocia a situaciones en las que existe posibilidad de pérdida
+                            o daño, sin que la actividad tenga como resultado favorable una
+                            ganancia derivada de ese riesgo. Es habitual analizarlo en
+                            prevención laboral y seguridad.
+                        </p>
+                    </div>
+
+                    <div class="border-t border-neutral-400 pt-5">
+                        <h3 class="text-lg font-bold">Riesgo especulativo</h3>
+                        <p class="mt-3 text-sm leading-7 text-neutral-600">
+                            Es aquel que puede dar lugar a resultados negativos o positivos,
+                            como sucede en ciertas decisiones económicas o comerciales.
+                            Se diferencia del riesgo puro por la posibilidad de obtener
+                            un beneficio.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FACTORES -->
+        <section id="factores" class="seccion mx-auto max-w-7xl px-5 py-16">
+            <div class="max-w-3xl">
+                <p class="text-xs font-bold uppercase tracking-widest text-neutral-500">
+                    05 / Factores de riesgo
+                </p>
+                <h2 class="mt-3 text-3xl font-bold tracking-tight">
+                    ¿Qué puede afectar al trabajador?
+                </h2>
+                <p class="mt-4 text-sm leading-7 text-neutral-600">
+                    Los factores de riesgo pueden presentarse de forma aislada o combinada.
+                    Su identificación permite definir medidas específicas para cada tarea,
+                    puesto de trabajo y entorno.
+                </p>
+            </div>
+
+            <div class="mt-9 grid gap-0 border-y border-neutral-300 sm:grid-cols-2 lg:grid-cols-3">
+                <article class="border-b border-neutral-300 p-5 sm:border-r">
+                    <h3 class="font-bold">Físicos</h3>
+                    <p class="mt-2 text-sm leading-6 text-neutral-600">
+                        Ruido, vibraciones, temperaturas extremas, iluminación inadecuada
+                        y radiaciones.
+                    </p>
+                </article>
+
+                <article class="border-b border-neutral-300 p-5 lg:border-r">
+                    <h3 class="font-bold">Químicos</h3>
+                    <p class="mt-2 text-sm leading-6 text-neutral-600">
+                        Gases, vapores, polvos, humos, líquidos y otras sustancias
+                        que pueden causar daños.
+                    </p>
+                </article>
+
+                <article class="border-b border-neutral-300 p-5 sm:border-r lg:border-r-0">
+                    <h3 class="font-bold">Biológicos</h3>
+                    <p class="mt-2 text-sm leading-6 text-neutral-600">
+                        Bacterias, virus, hongos y otros agentes biológicos.
+                    </p>
+                </article>
+
+                <article class="border-b border-neutral-300 p-5 lg:border-r">
+                    <h3 class="font-bold">Mecánicos</h3>
+                    <p class="mt-2 text-sm leading-6 text-neutral-600">
+                        Golpes, cortes, atrapamientos, caídas y contacto con partes móviles.
+                    </p>
+                </article>
+
+                <article class="border-b border-neutral-300 p-5 sm:border-r">
+                    <h3 class="font-bold">Eléctricos</h3>
+                    <p class="mt-2 text-sm leading-6 text-neutral-600">
+                        Contacto directo o indirecto, instalaciones defectuosas y
+                        equipos sin protección adecuada.
+                    </p>
+                </article>
+
+                <article class="border-b border-neutral-300 p-5">
+                    <h3 class="font-bold">Ergonómicos</h3>
+                    <p class="mt-2 text-sm leading-6 text-neutral-600">
+                        Posturas forzadas, movimientos repetitivos, manipulación de cargas
+                        y diseño inadecuado del puesto.
+                    </p>
+                </article>
+
+                <article class="p-5 sm:border-r">
+                    <h3 class="font-bold">Psicosociales</h3>
+                    <p class="mt-2 text-sm leading-6 text-neutral-600">
+                        Sobrecarga de trabajo, estrés, falta de apoyo, violencia y
+                        organización inadecuada de las tareas.
+                    </p>
+                </article>
+
+                <article class="p-5 lg:border-r">
+                    <h3 class="font-bold">Ambientales</h3>
+                    <p class="mt-2 text-sm leading-6 text-neutral-600">
+                        Generación de residuos, emisiones, vertidos, consumo de recursos
+                        e impactos sobre el entorno.
+                    </p>
+                </article>
+
+                <article class="border-t border-neutral-300 p-5 sm:col-span-2 lg:col-span-1 lg:border-t-0">
+                    <h3 class="font-bold">Organizativos</h3>
+                    <p class="mt-2 text-sm leading-6 text-neutral-600">
+                        Falta de capacitación, procedimientos insuficientes, mantenimiento
+                        deficiente y comunicación inadecuada.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- ACCIDENTES Y ENFERMEDADES -->
+        <section id="danos" class="seccion border-y border-neutral-300 bg-neutral-50">
+            <div class="mx-auto grid max-w-7xl gap-10 px-5 py-16 md:grid-cols-2">
+                <article>
+                    <p class="text-xs font-bold uppercase tracking-widest text-neutral-500">
+                        06 / Daños laborales
+                    </p>
+                    <h2 class="mt-3 text-3xl font-bold tracking-tight">
+                        Accidentes de trabajo
+                    </h2>
+                    <p class="mt-5 text-sm leading-7 text-neutral-600">
+                        Son acontecimientos vinculados con el trabajo que pueden provocar
+                        lesiones o daños. Pueden estar relacionados con condiciones
+                        inseguras, fallas de equipos, procedimientos inadecuados o
+                        una combinación de factores.
+                    </p>
+
+                    <h3 class="mt-6 font-bold">Acciones preventivas</h3>
+                    <ul class="mt-3 space-y-2 text-sm leading-6 text-neutral-600">
+                        <li>— Mantener las instalaciones y los equipos en condiciones seguras.</li>
+                        <li>— Identificar peligros antes de iniciar las tareas.</li>
+                        <li>— Capacitar y establecer procedimientos de trabajo.</li>
+                        <li>— Investigar incidentes para evitar su repetición.</li>
+                    </ul>
+                </article>
+
+                <article>
+                    <p class="text-xs font-bold uppercase tracking-widest text-neutral-500">
+                        07 / Salud ocupacional
+                    </p>
+                    <h2 class="mt-3 text-3xl font-bold tracking-tight">
+                        Enfermedades profesionales
+                    </h2>
+                    <p class="mt-5 text-sm leading-7 text-neutral-600">
+                        Son enfermedades asociadas a la exposición a determinados factores
+                        presentes en el trabajo. Pueden desarrollarse progresivamente y
+                        manifestarse luego de períodos de exposición.
+                    </p>
+
+                    <h3 class="mt-6 font-bold">Acciones preventivas</h3>
+                    <ul class="mt-3 space-y-2 text-sm leading-6 text-neutral-600">
+                        <li>— Reducir o eliminar las exposiciones peligrosas.</li>
+                        <li>— Mejorar la ventilación, la ergonomía y la organización.</li>
+                        <li>— Aplicar medidas de higiene y protección adecuadas.</li>
+                        <li>— Realizar seguimiento conforme a los requisitos aplicables.</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- JERARQUÍA DE CONTROLES -->
+        <section id="prevencion" class="seccion mx-auto max-w-7xl px-5 py-16">
+            <div class="max-w-3xl">
+                <p class="text-xs font-bold uppercase tracking-widest text-neutral-500">
+                    08 / Control de riesgos
+                </p>
+                <h2 class="mt-3 text-3xl font-bold tracking-tight">
+                    Jerarquía de medidas preventivas
+                </h2>
+                <p class="mt-4 text-sm leading-7 text-neutral-600">
+                    Las medidas se priorizan según su capacidad para reducir el riesgo.
+                    Siempre que sea viable, es preferible actuar sobre el peligro en su
+                    origen antes que depender exclusivamente de la conducta individual.
+                </p>
+            </div>
+
+            <div class="mt-9 space-y-2">
+                <article class="grid gap-3 border border-neutral-300 p-5 sm:grid-cols-[55px_1fr] sm:items-start">
+                    <span class="text-2xl font-bold text-neutral-400">01</span>
+                    <div>
+                        <h3 class="font-bold">Eliminación</h3>
+                        <p class="mt-2 text-sm leading-6 text-neutral-600">
+                            Suprimir el peligro. Ejemplo: eliminar una tarea innecesaria
+                            que implique exposición peligrosa.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="grid gap-3 border border-neutral-300 p-5 sm:grid-cols-[55px_1fr] sm:items-start">
+                    <span class="text-2xl font-bold text-neutral-400">02</span>
+                    <div>
+                        <h3 class="font-bold">Sustitución</h3>
+                        <p class="mt-2 text-sm leading-6 text-neutral-600">
+                            Reemplazar materiales, procesos o equipos peligrosos por
+                            alternativas de menor riesgo.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="grid gap-3 border border-neutral-300 p-5 sm:grid-cols-[55px_1fr] sm:items-start">
+                    <span class="text-2xl font-bold text-neutral-400">03</span>
+                    <div>
+                        <h3 class="font-bold">Controles de ingeniería</h3>
+                        <p class="mt-2 text-sm leading-6 text-neutral-600">
+                            Aislar a las personas del peligro mediante resguardos,
+                            ventilación, barreras o modificaciones técnicas.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="grid gap-3 border border-neutral-300 p-5 sm:grid-cols-[55px_1fr] sm:items-start">
+                    <span class="text-2xl font-bold text-neutral-400">04</span>
+                    <div>
+                        <h3 class="font-bold">Controles administrativos</h3>
+                        <p class="mt-2 text-sm leading-6 text-neutral-600">
+                            Implementar procedimientos, capacitación, señalización,
+                            mantenimiento, planificación y organización segura del trabajo.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="grid gap-3 border border-neutral-300 p-5 sm:grid-cols-[55px_1fr] sm:items-start">
+                    <span class="text-2xl font-bold text-neutral-400">05</span>
+                    <div>
+                        <h3 class="font-bold">Elementos de protección personal (EPP)</h3>
+                        <p class="mt-2 text-sm leading-6 text-neutral-600">
+                            Utilizar equipos adecuados al riesgo, como guantes, protección
+                            ocular, auditiva o respiratoria. Su uso no sustituye los controles
+                            más eficaces que puedan implementarse.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- EVALUACIÓN DEL RIESGO -->
+        <section id="evaluacion" class="seccion border-y border-neutral-300 bg-neutral-50">
+            <div class="mx-auto max-w-7xl px-5 py-16">
+                <div class="grid gap-10 md:grid-cols-[.8fr_1.2fr]">
+                    <div>
+                        <p class="text-xs font-bold uppercase tracking-widest text-neutral-500">
+                            09 / Análisis
+                        </p>
+                        <h2 class="mt-3 text-3xl font-bold tracking-tight">
+                            Evaluación de riesgos
+                        </h2>
+                        <p class="mt-5 text-sm leading-7 text-neutral-600">
+                            Evaluar un riesgo permite estimar su importancia y decidir
+                            qué medidas deben aplicarse primero. La metodología concreta
+                            depende del procedimiento utilizado por la organización.
+                        </p>
+                    </div>
+
+                    <div class="border border-neutral-400 bg-white p-6 md:p-8">
+                        <p class="text-xs font-bold uppercase tracking-widest text-neutral-500">
+                            Modelo simplificado
+                        </p>
+
+                        <div class="my-6 border-y border-neutral-300 py-6 text-center">
+                            <p class="text-2xl font-bold md:text-4xl">
+                                R = P × T × C
+                            </p>
+                            <p class="mt-3 text-xs text-neutral-500">
+                                Fórmula orientativa de evaluación
+                            </p>
+                        </div>
+
+                        <dl class="space-y-4 text-sm">
+                            <div class="grid grid-cols-[90px_1fr] gap-3">
+                                <dt class="font-bold">R</dt>
+                                <dd class="text-neutral-600">Valor estimado del riesgo.</dd>
+                            </div>
+                            <div class="grid grid-cols-[90px_1fr] gap-3">
+                                <dt class="font-bold">P</dt>
+                                <dd class="text-neutral-600">Probabilidad de que ocurra el evento.</dd>
+                            </div>
+                            <div class="grid grid-cols-[90px_1fr] gap-3">
+                                <dt class="font-bold">T</dt>
+                                <dd class="text-neutral-600">Tiempo o grado de exposición, según la metodología.</dd>
+                            </div>
+                            <div class="grid grid-cols-[90px_1fr] gap-3">
+                                <dt class="font-bold">C</dt>
+                                <dd class="text-neutral-600">Consecuencias o gravedad del daño.</dd>
+                            </div>
+                        </dl>
+
+                        <p class="mt-6 border-t border-neutral-200 pt-4 text-xs leading-5 text-neutral-500">
+                            Esta expresión es un modelo simplificado. No existe una única
+                            fórmula universal para todas las evaluaciones de riesgos.
+                            Debe utilizarse la metodología indicada en el material de estudio
+                            o en el procedimiento aplicable.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="mt-10 grid gap-5 md:grid-cols-2">
+                    <article class="border border-neutral-300 bg-white p-5">
+                        <h3 class="font-bold">Índice de justificación (J)</h3>
+                        <p class="mt-3 text-sm leading-7 text-neutral-600">
+                            Si la metodología de la materia contempla un índice J,
+                            su fórmula, variables y umbrales deben interpretarse conforme
+                            a la bibliografía o al procedimiento específico utilizado.
+                            No debe asignársele una fórmula sin verificar la fuente.
+                        </p>
+                    </article>
+
+                    <article class="border border-neutral-300 bg-white p-5">
+                        <h3 class="font-bold">Priorización</h3>
+                        <p class="mt-3 text-sm leading-7 text-neutral-600">
+                            Los riesgos se ordenan según su importancia y las consecuencias
+                            potenciales. Los riesgos más graves requieren atención prioritaria
+                            y controles adecuados.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- GESTIÓN -->
+        <section id="gestion" class="seccion mx-auto max-w-7xl px-5 py-16">
+            <div class="max-w-3xl">
+                <p class="text-xs font-bold uppercase tracking-widest text-neutral-500">
+                    10 / Gestión preventiva
+                </p>
+                <h2 class="mt-3 text-3xl font-bold tracking-tight">
+                    De la identificación a la mejora continua
+                </h2>
+                <p class="mt-4 text-sm leading-7 text-neutral-600">
+                    La gestión preventiva es un proceso permanente que requiere planificar,
+                    ejecutar, verificar y corregir. No termina con la elaboración de un
+                    diagnóstico inicial.
+                </p>
+            </div>
+
+            <div class="mt-9 grid gap-0 border-y border-neutral-300 md:grid-cols-4">
+                <article class="border-b border-neutral-300 p-5 md:border-b-0 md:border-r">
+                    <p class="text-xs font-bold text-neutral-500">ETAPA 01</p>
+                    <h3 class="mt-3 font-bold">Identificar</h3>
+                    <p class="mt-3 text-sm leading-6 text-neutral-600">
+                        Reconocer peligros, condiciones inseguras, exposiciones e impactos
+                        ambientales.
+                    </p>
+                </article>
+
+                <article class="border-b border-neutral-300 p-5 md:border-b-0 md:border-r">
+                    <p class="text-xs font-bold text-neutral-500">ETAPA 02</p>
+                    <h3 class="mt-3 font-bold">Planificar</h3>
+                    <p class="mt-3 text-sm leading-6 text-neutral-600">
+                        Definir objetivos, responsables, recursos, plazos y medidas de control.
+                    </p>
+                </article>
+
+                <article class="border-b border-neutral-300 p-5 md:border-b-0 md:border-r">
+                    <p class="text-xs font-bold text-neutral-500">ETAPA 03</p>
+                    <h3 class="mt-3 font-bold">Implementar</h3>
+                    <p class="mt-3 text-sm leading-6 text-neutral-600">
+                        Aplicar controles, capacitar al personal y mantener condiciones seguras.
+                    </p>
+                </article>
+
+                <article class="p-5">
+                    <p class="text-xs font-bold text-neutral-500">ETAPA 04</p>
+                    <h3 class="mt-3 font-bold">Verificar y mejorar</h3>
+                    <p class="mt-3 text-sm leading-6 text-neutral-600">
+                        Supervisar resultados, investigar desvíos y corregir las causas detectadas.
+                    </p>
+                </article>
+            </div>
+
+            <div class="mt-9 grid gap-8 md:grid-cols-2">
+                <article>
+                    <h3 class="text-lg font-bold">Liderazgo y participación</h3>
+                    <p class="mt-3 text-sm leading-7 text-neutral-600">
+                        La dirección debe respaldar la prevención con recursos, responsabilidades
+                        claras y seguimiento. La participación de los trabajadores aporta
+                        información sobre las tareas reales y ayuda a detectar problemas.
+                    </p>
+                </article>
+
+                <article>
+                    <h3 class="text-lg font-bold">Seguimiento y control</h3>
+                    <p class="mt-3 text-sm leading-7 text-neutral-600">
+                        Las inspecciones, registros, indicadores, auditorías y revisiones
+                        permiten comprobar si las medidas funcionan y si es necesario
+                        introducir mejoras.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- MEDIO AMBIENTE -->
+        <section id="ambiente" class="seccion border-y border-neutral-300 bg-neutral-50">
+            <div class="mx-auto max-w-7xl px-5 py-16">
+                <div class="max-w-3xl">
+                    <p class="text-xs font-bold uppercase tracking-widest text-neutral-500">
+                        11 / Gestión ambiental
+                    </p>
+                    <h2 class="mt-3 text-3xl font-bold tracking-tight">
+                        Prevenir también es cuidar el entorno
+                    </h2>
+                    <p class="mt-4 text-sm leading-7 text-neutral-600">
+                        Las actividades productivas y de servicios pueden generar impactos
+                        sobre el ambiente. La gestión ambiental procura reconocerlos,
+                        prevenirlos o reducirlos mediante controles y prácticas responsables.
+                    </p>
+                </div>
+
+                <div class="mt-9 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                    <article class="border border-neutral-300 bg-white p-5">
+                        <h3 class="font-bold">Residuos</h3>
+                        <p class="mt-3 text-sm leading-6 text-neutral-600">
+                            Reducir la generación, separar los residuos y asegurar su
+                            almacenamiento y disposición conforme a las reglas aplicables.
+                        </p>
+                    </article>
+
+                    <article class="border border-neutral-300 bg-white p-5">
+                        <h3 class="font-bold">Agua y energía</h3>
+                        <p class="mt-3 text-sm leading-6 text-neutral-600">
+                            Evitar pérdidas, controlar consumos y promover un uso eficiente
+                            de los recursos.
+                        </p>
+                    </article>
+
+                    <article class="border border-neutral-300 bg-white p-5">
+                        <h3 class="font-bold">Contaminación</h3>
+                        <p class="mt-3 text-sm leading-6 text-neutral-600">
+                            Prevenir emisiones, derrames, vertidos y otras formas de
+                            contaminación mediante controles adecuados.
+                        </p>
+                    </article>
+
+                    <article class="border border-neutral-300 bg-white p-5">
+                        <h3 class="font-bold">Aspectos ambientales</h3>
+                        <p class="mt-3 text-sm leading-6 text-neutral-600">
+                            Identificar actividades, productos o servicios que interactúan
+                            con el medio ambiente.
+                        </p>
+                    </article>
+
+                    <article class="border border-neutral-300 bg-white p-5">
+                        <h3 class="font-bold">Impactos ambientales</h3>
+                        <p class="mt-3 text-sm leading-6 text-neutral-600">
+                            Analizar los cambios que esas interacciones pueden producir
+                            en el aire, el agua, el suelo y los ecosistemas.
+                        </p>
+                    </article>
+
+                    <article class="border border-neutral-300 bg-white p-5">
+                        <h3 class="font-bold">Mejora ambiental</h3>
+                        <p class="mt-3 text-sm leading-6 text-neutral-600">
+                            Establecer objetivos, verificar resultados y actualizar
+                            las medidas de gestión.
+                        </p>
+                    </article>
+                </div>
+
+                <div class="mt-8 border border-neutral-400 bg-white p-5 md:p-7">
+                    <p class="text-xs font-bold uppercase tracking-widest text-neutral-500">
+                        Relación entre los tres ejes
+                    </p>
+                    <div class="mt-5 grid gap-5 md:grid-cols-3">
+                        <div>
+                            <h3 class="font-bold">Seguridad e higiene</h3>
+                            <p class="mt-2 text-sm leading-6 text-neutral-600">
+                                Reduce los peligros y previene lesiones en el trabajo.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="font-bold">Salud ocupacional</h3>
+                            <p class="mt-2 text-sm leading-6 text-neutral-600">
+                                Busca evitar daños a la salud y mejorar el bienestar laboral.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="font-bold">Medio ambiente</h3>
+                            <p class="mt-2 text-sm leading-6 text-neutral-600">
+                                Previene o reduce los impactos negativos de la actividad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EJEMPLO PRÁCTICO -->
+        <section id="ejemplo" class="seccion mx-auto max-w-7xl px-5 py-16">
+            <div class="grid gap-8 md:grid-cols-[.7fr_1.3fr]">
+                <div>
+                    <p class="text-xs font-bold uppercase tracking-widest text-neutral-500">
+                        12 / Aplicación práctica
+                    </p>
+                    <h2 class="mt-3 text-3xl font-bold tracking-tight">
+                        Un ejemplo en el lugar de trabajo
+                    </h2>
+                </div>
+
+                <div>
+                    <div class="border border-neutral-300 p-5">
+                        <p class="text-xs font-bold uppercase tracking-widest text-neutral-500">
+                            Situación
+                        </p>
+                        <h3 class="mt-2 text-lg font-bold">
+                            Uso de un producto químico de limpieza
+                        </h3>
+                        <p class="mt-3 text-sm leading-7 text-neutral-600">
+                            En un establecimiento se utiliza un producto que puede provocar
+                            irritación por contacto o inhalación. El mismo proceso puede
+                            generar residuos y envases que requieren gestión adecuada.
+                        </p>
+                    </div>
+
+                    <div class="mt-4 grid gap-3 sm:grid-cols-2">
+                        <div class="border border-neutral-300 p-5">
+                            <h3 class="font-bold">Seguridad e higiene</h3>
+                            <p class="mt-2 text-sm leading-6 text-neutral-600">
+                                Revisar el producto, las instrucciones, el almacenamiento,
+                                la ventilación y los procedimientos de uso.
+                            </p>
+                        </div>
+
+                        <div class="border border-neutral-300 p-5">
+                            <h3 class="font-bold">Salud ocupacional</h3>
+                            <p class="mt-2 text-sm leading-6 text-neutral-600">
+                                Evaluar la exposición, priorizar la sustitución o los controles
+                                técnicos y definir protección adecuada.
+                            </p>
+                        </div>
+
+                        <div class="border border-neutral-300 p-5">
+                            <h3 class="font-bold">Medio ambiente</h3>
+                            <p class="mt-2 text-sm leading-6 text-neutral-600">
+                                Evitar vertidos, controlar los residuos y gestionar los envases
+                                según los requisitos aplicables.
+                            </p>
+                        </div>
+
+                        <div class="border border-neutral-300 p-5">
+                            <h3 class="font-bold">Gestión preventiva</h3>
+                            <p class="mt-2 text-sm leading-6 text-neutral-600">
+                                Capacitar, asignar responsables, inspeccionar y revisar
+                                periódicamente la eficacia de las medidas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- REPASO -->
+        <section id="repaso" class="seccion border-y border-neutral-300 bg-neutral-50">
+            <div class="mx-auto max-w-4xl px-5 py-16">
+                <p class="text-xs font-bold uppercase tracking-widest text-neutral-500">
+                    13 / Repaso
+                </p>
+
+                <h2 class="mt-3 text-3xl font-bold tracking-tight">
+                    Preguntas para estudiar
+                </h2>
+
+                <p class="mt-4 text-sm leading-6 text-neutral-600">
+                    Seleccioná cada pregunta para consultar una respuesta orientativa.
+                </p>
+
+                <div class="mt-8 divide-y divide-neutral-300 border-y border-neutral-300">
+
+                    <details class="group py-5">
+                        <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold">
+                            ¿Cuál es el objetivo principal de la materia?
+                            <span class="text-xl text-neutral-500 group-open:rotate-45">+</span>
+                        </summary>
+                        <p class="mt-4 text-sm leading-7 text-neutral-600">
+                            Prevenir riesgos, proteger la salud de los trabajadores,
+                            mejorar las condiciones laborales y reducir los impactos
+                            ambientales de las actividades.
+                        </p>
+                    </details>
+
+                    <details class="group py-5">
+                        <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold">
+                            ¿Qué diferencia existe entre peligro y riesgo?
+                            <span class="text-xl text-neutral-500 group-open:rotate-45">+</span>
+                        </summary>
+                        <p class="mt-4 text-sm leading-7 text-neutral-600">
+                            El peligro es una fuente o situación con potencial de causar daño.
+                            El riesgo considera la probabilidad de que ese daño ocurra
+                            y la gravedad de sus consecuencias.
+                        </p>
+                    </details>
+
+                    <details class="group py-5">
+                        <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold">
+                            ¿Qué establece la Ley 19.587?
+                            <span class="text-xl text-neutral-500 group-open:rotate-45">+</span>
+                        </summary>
+                        <p class="mt-4 text-sm leading-7 text-neutral-600">
+                            Establece el marco legal argentino en materia de higiene
+                            y seguridad en el trabajo.
+                        </p>
+                    </details>
+
+                    <details class="group py-5">
+                        <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold">
+                            ¿Qué función cumplen las normas ISO 45001 e ISO 14001?
+                            <span class="text-xl text-neutral-500 group-open:rotate-45">+</span>
+                        </summary>
+                        <p class="mt-4 text-sm leading-7 text-neutral-600">
+                            ISO 45001 aborda la gestión de la seguridad y salud en el trabajo;
+                            ISO 14001 se enfoca en la gestión ambiental.
+                        </p>
+                    </details>
+
+                    <details class="group py-5">
+                        <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold">
+                            ¿Por qué se prioriza la eliminación del peligro?
+                            <span class="text-xl text-neutral-500 group-open:rotate-45">+</span>
+                        </summary>
+                        <p class="mt-4 text-sm leading-7 text-neutral-600">
+                            Porque eliminar el peligro evita la exposición a su fuente.
+                            Cuando no es posible, se evalúan otras medidas siguiendo
+                            la jerarquía de controles.
+                        </p>
+                    </details>
+
+                    <details class="group py-5">
+                        <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold">
+                            ¿Cómo se relacionan la salud ocupacional y el medio ambiente?
+                            <span class="text-xl text-neutral-500 group-open:rotate-45">+</span>
+                        </summary>
+                        <p class="mt-4 text-sm leading-7 text-neutral-600">
+                            Ambas áreas forman parte de una gestión preventiva integral:
+                            una protege la salud de las personas y la otra busca prevenir
+                            o reducir los impactos de la actividad sobre el entorno.
+                        </p>
+                    </details>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CIERRE -->
+        <section class="mx-auto max-w-7xl px-5 py-16">
+            <div class="border border-neutral-400 p-6 md:p-10">
+                <p class="text-xs font-bold uppercase tracking-widest text-neutral-500">
+                    Conclusión
+                </p>
+
+                <h2 class="mt-3 max-w-3xl text-3xl font-bold tracking-tight md:text-4xl">
+                    La prevención es una responsabilidad compartida y continua.
+                </h2>
+
+                <p class="mt-5 max-w-3xl text-sm leading-7 text-neutral-600 md:text-base">
+                    Integrar la seguridad e higiene, la salud ocupacional y el cuidado ambiental
+                    permite anticipar problemas, reducir daños y construir lugares de trabajo
+                    más seguros, saludables y responsables. La capacitación, el cumplimiento
+                    normativo, el liderazgo y la mejora continua son elementos fundamentales
+                    para lograrlo.
+                </p>
+
+                <a href="#inicio"
+                    class="volver-arriba mt-7 inline-block border border-neutral-400 px-5 py-3 text-sm hover:bg-neutral-100">
+                    Volver al inicio ↑
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="border-t border-neutral-300 bg-white text-neutral-600">
+        <div class="mx-auto max-w-7xl px-5 py-12">
+
+            <div class="grid gap-10 md:grid-cols-3">
+
+                <!-- PROYECTO -->
+                <div>
+                    <a href="#inicio" class="text-sm font-bold text-neutral-900">
+                        Seguridad e Higiene
+                    </a>
+
+                    <p class="mt-2 text-sm leading-6">
+                        Salud Ocupacional y Medio Ambiente.
+                    </p>
+
+                    <p class="mt-4 text-xs leading-5 text-neutral-500">
+                        Material educativo elaborado con fines académicos,
+                        orientado al estudio y la comprensión de los contenidos
+                        de la materia.
+                    </p>
+                </div>
+
+                <!-- LIBRE USO Y TÉRMINOS -->
+                <div>
+                    <h2 class="text-xs font-bold uppercase tracking-widest text-neutral-900">
+                        Uso del contenido
+                    </h2>
+
+                    <p class="mt-4 text-sm leading-6">
+                        El contenido de este sitio se ofrece para su consulta,
+                        estudio, reproducción y adaptación con fines educativos.
+                        Se permite compartirlo y reutilizarlo, procurando conservar
+                        el sentido original y reconocer la autoría cuando corresponda.
+                    </p>
+
+                    <p class="mt-3 text-xs leading-5 text-neutral-500">
+                        Este material tiene carácter educativo e informativo.
+                        No reemplaza la legislación vigente, la documentación oficial
+                        ni el asesoramiento profesional. Las normas y referencias
+                        deben verificarse en sus fuentes oficiales antes de aplicarse.
+                    </p>
+                </div>
+
+                <!-- INSTITUCIÓN Y REDES -->
+                <div>
+                    <h2 class="text-xs font-bold uppercase tracking-widest text-neutral-900">
+                        Institución educativa
+                    </h2>
+
+                    <p class="mt-4 text-sm font-semibold leading-6 text-neutral-800">
+                        Escuela Normal Superior N°40 "Mariano Moreno"
+                    </p>
+
+                    <p class="text-sm text-neutral-500">
+                        Nivel Superior
+                    </p>
+
+                    <div class="mt-6">
+                        <h3 class="text-xs font-bold uppercase tracking-widest text-neutral-900">
+                            Perfiles personales
+                        </h3>
+
+                        <ul class="mt-3 space-y-3 text-sm">
+                            <li>
+                                <a href="https://github.com/tiagoraminelli" target="_blank" rel="noopener noreferrer"
+                                    class="underline decoration-neutral-300 underline-offset-4 hover:text-black">
+                                    GitHub
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.linkedin.com/in/tiago-raminelli/" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="underline decoration-neutral-300 underline-offset-4 hover:text-black">
+                                    LinkedIn
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- CIERRE -->
+            <div
+                class="mt-10 flex flex-col gap-3 border-t border-neutral-200 pt-5 text-xs text-neutral-500 sm:flex-row sm:items-center sm:justify-between">
+                <p>
+                    © <span id="anioFooter"></span> · Material educativo de libre uso.
+                </p>
+
+                <a href="#inicio" class="w-fit hover:text-neutral-900">
+                    Volver al inicio ↑
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('anioFooter').textContent =
+            new Date().getFullYear();
+    </script>
+
+
+    <script>
+        const menuBtn = document.getElementById('menuBtn');
+        const menuMovil = document.getElementById('menuMovil');
+
+        menuBtn.addEventListener('click', () => {
+            const estaAbierto = !menuMovil.classList.contains('hidden');
+
+            menuMovil.classList.toggle('hidden');
+            menuBtn.setAttribute('aria-expanded', String(!estaAbierto));
+        });
+
+        document.querySelectorAll('#menuMovil a').forEach(enlace => {
+            enlace.addEventListener('click', () => {
+                menuMovil.classList.add('hidden');
+                menuBtn.setAttribute('aria-expanded', 'false');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
